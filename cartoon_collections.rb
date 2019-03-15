@@ -6,7 +6,8 @@ end
 
 def summon_captain_planet(array)
   new_array = []
-  new_array << array.collect {|word| puts "#{word.upcase}!"}
+  array.collect {|word| new_array << "#{word.upcase}!"}
+  new_array
   binding.pry
 end
 
