@@ -7,7 +7,6 @@ end
 def summon_captain_planet(array)
   new_array = []
   array.collect {|word| new_array << "#{word.upcase}!"}
-  new_array
 end
 
 def long_planeteer_calls# code an argument here
