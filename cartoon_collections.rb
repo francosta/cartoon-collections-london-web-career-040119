@@ -17,5 +17,5 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.each { |word| cheese_types.each {|cheese| if cheese == word then return word else end} }
+  array.each { |word| cheese_types.each {|cheese| if cheese == word then return word else nil end} }
 end
