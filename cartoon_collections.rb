@@ -1,4 +1,7 @@
+require 'pry'
+
 def roll_call_dwarves(array)
+  binding.pry
   array.each_with_index {|name, index| puts "#{index + 1} #{name}/n"}
 end
 
